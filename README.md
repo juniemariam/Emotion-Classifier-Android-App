@@ -10,7 +10,7 @@ Built using:
 
 ---
 
-## 🔧 Features
+## Features
 -  **Live audio classification** using microphone input
 - **Mel spectrogram preprocessing** without external libraries
 - Offline model inference using TensorFlow Lite
@@ -69,7 +69,7 @@ Ensure microphone permission is granted. The app will prompt at first launch.
 
 ---
 
-## 🤖 How It Works
+## How It Works
 1. Records audio using `AudioRecord`
 2. Splits audio into frames (512 samples per frame)
 3. Applies Hann window and FFT
@@ -78,7 +78,7 @@ Ensure microphone permission is granted. The app will prompt at first launch.
 6. Runs through `.tflite` model for prediction
 
 
-## 📄 License
+## License
 MIT License
 
 ---
